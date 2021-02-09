@@ -7,7 +7,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 
 public class Google 
 {
@@ -27,6 +26,7 @@ public class Google
 			String mName = menuName.getText();
 			System.out.println(mName);
 		}
+		System.out.println("Hi from Eclipse....:)");
 		//Comment by Github....:)
 	    /*int pageCount=pages.size();
 	    System.out.println(pageCount);

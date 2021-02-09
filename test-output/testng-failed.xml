@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.testng.annotations.Test.AssertDemo">
+      <class name="Demo.testng.annotations.Test.actiTimeDemo">
         <methods>
-          <include name="tc"/>
+          <include name="tc" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- Demo.testng.annotations.Test.AssertDemo -->
+      </class> <!-- Demo.testng.annotations.Test.actiTimeDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
